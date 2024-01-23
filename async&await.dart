@@ -1,4 +1,5 @@
 void main(List<String> args) async {
+  //async await like in javascript
   final post = await fetchPost();
 
   print(post.title);
